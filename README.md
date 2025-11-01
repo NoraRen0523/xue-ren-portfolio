@@ -1,89 +1,110 @@
-![Astro Sphere Lighthouse Score](_astrosphere.jpg)
+![Astro Sphere Lighthouse Score](img.png)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+# Xue Ren — Portfolio (Astro + Tailwind + TypeScript)
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+A fast, minimalist personal portfolio and blog built with **Astro**, **Tailwind CSS**, and **TypeScript** — showcasing my work in **full-stack web development**, and **data-driven dashboards**.
 
-## 🚀 Deploy your own
+![Lighthouse Score](_lighthouse.png)
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere)
+## 🚀 Live
 
-## 📋 Features
+**Website:** [https://xue-ren-portfolio.vercel.app](https://xue-ren-portfolio.vercel.app)
+
+---
+
+## ✨ Highlights
 
 - ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+- ✅ Responsive & Accessible
+- ✅ SEO-friendly with auto sitemap and RSS feed
+- ✅ Type-safe with Astro Content Collections
+- ✅ Light/Dark themes with subtle star and meteor animations
+- ✅ Animated UI using SolidJS for interactivity
+- ✅ Tailwind styling for a clean, scalable design system
+- ✅ MDX support for embedded components
 - ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - copy to clipboard
+- ✅ Code blocks with copy-to-clipboard
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](_lighthouse.png)
+---
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+## 🛠 Tech Stack
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+- **Frontend:** Astro · React · SolidJS · TypeScript · Tailwind CSS
+- **Backend:** Java · Node.js · Express · REST / GraphQL APIs
+- **Data:** SQL · PostgreSQL · MongoDB
+- **Deployment:** Vercel · Netlify · GitHub Actions
+- **Other:** Docker · Jest · Agile/Scrum
 
-## 📄 Configuration
+---
 
-The blog posts on the demo serve as the documentation and configuration.
+## 💼 About This Site
+
+This portfolio represents both my **creative front-end design** and my **engineering experience** connecting real-time manufacturing data with intuitive web interfaces.
+
+It highlights my background in:
+- Building **MES-adjacent full-stack apps** and **production dashboards**
+- Designing **data visualization** and **monitoring systems** for factories
+- Creating **scalable, maintainable UI/UX systems** in TypeScript
+
+
+---
+
+## ⚙️ Configuration
+
+- Edit global constants in `src/consts.ts`
+- Modify text in `src/pages/index.astro` (hero & about section)
+- Tailwind settings in `tailwind.config.js`
+- Add or update content in `src/content/blog/`, `src/content/projects/`, or `src/content/work/`
+
+---
 
 ## 💻 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the project root.
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+| Command                   | Description |
+| :------------------------ | :----------- |
+| `npm install`             | Install dependencies |
+| `npm run dev`             | Start local dev server at `localhost:4321` |
+| `npm run dev:network`     | Start dev server accessible on LAN |
+| `npm run sync`            | Generate TypeScript types for all Astro modules |
+| `npm run build`           | Build production site to `./dist/` |
+| `npm run preview`         | Preview the build locally |
+| `npm run preview:network` | Preview on LAN |
+| `npm run lint`            | Run ESLint |
+| `npm run lint:fix`        | Auto-fix ESLint issues |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts dev server on local network               |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Starts preview server on local network           |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+> Replace `npm` with your preferred package manager (`pnpm`, `yarn`, or `bun`).
 
-## 🗺️ Roadmap
+---
 
-A few features I plan to implement
-- ⬜ Article Pages - Table of Contents
-- ⬜ Article Pages - Share on social media
+## ☁️ Deployment
+Current deployment:  
+🔗 **https://xue-ren-portfolio.vercel.app**
 
-## ✨ Acknowledgement
+---
 
-Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
+## 🔐 Privacy Policy
 
+A customized Privacy Policy page is available at:  
+`src/content/pages/privacy-policy.md`  
+It describes how user data is handled for this portfolio site.
 
-## 🏛️ License
+---
 
-MIT
+## 🧭 Roadmap
 
+- ⬜ Table of Contents for articles
+- ⬜ Social sharing buttons
+- ⬜ Project filtering by tech stack
+- ⬜ Site-wide search
+- ⬜ English-only and multilingual options
 
-# 1.0.1 Update
+---
 
-Added ability to run dev and preview on local network.
-added npm run dev:network
-added npm run preview:network
+## 📫 Contact
 
-Added slightly more particle density in both light and dark mode.
+- **Email:** [rx1996523@gmail.com](mailto:rx1996523@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/xue-ren/](https://www.linkedin.com/in/xue-ren/)
 
-Added subtle dark mode star and meteor animations.
-
-Removed eslint config
 
